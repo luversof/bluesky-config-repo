@@ -1,4 +1,6 @@
-test: asdfa
+management.endpoints.web:
+  expose: '*'
+  base-path: /actuator22
 eureka:
   client:
     serviceUrl:
