@@ -1,6 +1,6 @@
 management.endpoints.web:
   expose: '*'
-  base-path: /actuator22
+  base-path: /actuator
 eureka:
   client:
     serviceUrl:
