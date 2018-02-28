@@ -30,4 +30,4 @@ spring.security.oauth2.client:
 api.battleNet:
   apiHost: https://kr.api.battle.net
   host: https://kr.battle.net
-  apikey: 'ENC(9mcGM2V/LRRUUCkEtwLkgS59QF2tzpYDtlXpCIDd7dalW59PYlIsdgl+St+emMh7kOwFjtNFkA5trhZ/0cMdng==)'
+  apikey: '{cipher}AQBqwup8+FjnL/H2JH+rhZ69dMx9tyV4QaWhBKF/VTQMLbmKjODYDuBmHIRgfL5NWtb6q+uEwvNRfMLOpTG2o6Z1A25cj2Cwih0DjcY8klKb2UIGvK7ZEVOiL2BNafs5HjE3//4mIWwYZtN4GJavmFalWZUxkt4t2iQTW4otKx5mnabDtOq+m/+aj2pdBSZ/1RrK4m6upz/bZmvM0aP9ea0fDCnX27vFSgUHZi4z4GROTvz20SpuUnb4Hn4mbhaufhGF9rNGB+n+/ZDbtMzNb37oGu+lnrdMugJd9QeGuodlTyYKyRMTF3yR2siL80ecxAxuj2glWzRverJgDAzgfnyyJ0xWLRAmnyclPleii9qEcQli3kAXa6lB/ClfvVGm4LkyktOJLZakPO0KPPKg5pZoPWTYjveQoZAwIjXXjHhjMA=='
