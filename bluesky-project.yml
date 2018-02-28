@@ -26,3 +26,8 @@ spring.security.oauth2.client:
       client-id: '{cipher}AQBqwup8+FjnL/H2JH+rhZ69dMx9tyV4QaWhBKF/VTQMLbmKjODYDuBmHIRgfL5NWtb6q+uEwvNRfMLOpTG2o6Z1A25cj2Cwih0DjcY8klKb2UIGvK7ZEVOiL2BNafs5HjE3//4mIWwYZtN4GJavmFalWZUxkt4t2iQTW4otKx5mnabDtOq+m/+aj2pdBSZ/1RrK4m6upz/bZmvM0aP9ea0fDCnX27vFSgUHZi4z4GROTvz20SpuUnb4Hn4mbhaufhGF9rNGB+n+/ZDbtMzNb37oGu+lnrdMugJd9QeGuodlTyYKyRMTF3yR2siL80ecxAxuj2glWzRverJgDAzgfnyyJ0xWLRAmnyclPleii9qEcQli3kAXa6lB/ClfvVGm4LkyktOJLZakPO0KPPKg5pZoPWTYjveQoZAwIjXXjHhjMA=='
       client-secret: '{cipher}AQBJ2LNcUBwM45yDMWc7DBz/gFHxj0B+JzSZpdNnLw2HDQ894md9qitdIy4fdW5z9IjxO/w/mdbH+dUPnFfCNtSwvY194EaJL/v9xtZMCt4ilOvEZ34EJ9hNe9SQj+d5EFmZbAuUcT8idKlu32yQIBfuKtwAFMFeGHN9cdmygIyfZMnmKV0Dhqj/kaOqhaLm7JJNrXZGEA+AMIvI2UYkjMSeCX8K5Pf/9Vmsq+Et/Z+aeVTeCqnwWvJHrTVYQunZHPHJk6j2aGVETllyKP6DrNNp7A8U5Ti0sd5vJPC0JGcDAfBBLK5yZljT0xTdugBknimaEVBXVdJkV/8coM66x5nCVy6yAKak6hGypQ59fVe+BGFH0T0rHFPXRg0LEWKtIz1exIIZyXtN5eC2inp+QBOoioqnJjvxCpCPBYdbDPZtQQ=='
     
+#bluesky-app-api-battlenet
+api.battleNet:
+  apiHost: https://kr.api.battle.net
+  host: https://kr.battle.net
+  apikey: 'ENC(9mcGM2V/LRRUUCkEtwLkgS59QF2tzpYDtlXpCIDd7dalW59PYlIsdgl+St+emMh7kOwFjtNFkA5trhZ/0cMdng==)'
