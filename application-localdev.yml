@@ -1,0 +1,19 @@
+# (s) jdbc
+datasource:
+    default:
+        password: root
+        type: com.zaxxer.hikari.HikariDataSource
+        url: jdbc:mariadb://localhost:3306
+        username: root
+
+# (e) jdbc
+
+# (s) data-mongodb
+spring:
+    data:
+        mongodb:
+            host: 192.168.0.12
+            port: 27017
+# (e) data-mongodb
+
+

@@ -1,0 +1,21 @@
+# 이렇게 설정하면 기능별 설정 처리 구분하기 어려워보이는데..
+
+# (s) data-jpa
+spring.jpa:
+  database: MYSQL
+  showSql: true
+  databasePlatform: org.hibernate.dialect.MySQL5Dialect
+
+  properties.hibernate.dialect.storage_engine: innodb
+
+  generate-ddl: true
+  hibernate.ddl-auto: create
+# (e) data-jpa
+
+# (s) data-rest
+spring:
+    data:
+        rest:
+            base-path: /api
+
+# (e) data-rest
