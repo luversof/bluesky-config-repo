@@ -1,10 +1,10 @@
 # (s) jdbc
 datasource:
     default:
-        password: root
+        password: '{cipher}AQA9lSazK/uL4LdDW8vyBUaykUMFqnZbuCYAuRJRfcBbQk0LYn49Pc4ZSRbdqpaIrsZ4nwTkSbBmmOWk/LVHomFs7a+jp/CDTl3dxgxKroKQ9kwp+cJeAG1bNNj9AW6KC4szJxphhkYLp6z+YIpmp8crzt3xrnIiI7QlRryLqLwxtyNXmDRf2naFMIt6MMXZUOcytFHQt2WwdSV+Z/uR48MBY1rf/KqENksYNDwOayzEItdazNxZd4QHa2vW16A9D4/FYpzwqUisOSEB0BCmQ6n2HiIMDjjeqhr8noaOlNaWTOoMrKV/VoHYRa0GNzgWtUaouR/vBl5+m4X6RpjBVv9jeoufDIsBlcVOCicmzuCdTGHr5L8rt7avtuVOGbuL8hg='
         type: com.zaxxer.hikari.HikariDataSource
         url: jdbc:mariadb://localhost:3306
-        username: root
+        username: '{cipher}AQA9lSazK/uL4LdDW8vyBUaykUMFqnZbuCYAuRJRfcBbQk0LYn49Pc4ZSRbdqpaIrsZ4nwTkSbBmmOWk/LVHomFs7a+jp/CDTl3dxgxKroKQ9kwp+cJeAG1bNNj9AW6KC4szJxphhkYLp6z+YIpmp8crzt3xrnIiI7QlRryLqLwxtyNXmDRf2naFMIt6MMXZUOcytFHQt2WwdSV+Z/uR48MBY1rf/KqENksYNDwOayzEItdazNxZd4QHa2vW16A9D4/FYpzwqUisOSEB0BCmQ6n2HiIMDjjeqhr8noaOlNaWTOoMrKV/VoHYRa0GNzgWtUaouR/vBl5+m4X6RpjBVv9jeoufDIsBlcVOCicmzuCdTGHr5L8rt7avtuVOGbuL8hg='
 
 # (e) jdbc
 
@@ -12,7 +12,7 @@ datasource:
 spring:
     data:
         mongodb:
-            host: 192.168.0.12
+            host: localhost
             port: 27017
 # (e) data-mongodb
 
