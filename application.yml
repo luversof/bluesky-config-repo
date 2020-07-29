@@ -24,7 +24,7 @@ bluesky-modules.mongodb:
     max-wait-time-m-s: 130000
     max-connection-life-time-m-s: 1
     max-connection-idle-time-m-s: 2
-  default-read-concern-level: localhost
+  default-read-concern-level: local
   default-read-preference: secondaryPreferred
   default-write-concern:
     w: W1
