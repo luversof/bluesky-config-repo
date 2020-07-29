@@ -12,6 +12,26 @@ spring.jpa:
   hibernate.ddl-auto: create
 # (e) data-jpa
 
+# (s) data-mongo
+bluesky-modules.mongodb:
+  default-mongo-properties:
+    host: localhost
+    port: 27017
+    authentication-database: admin
+  default-connection-pool-settings:
+    max-size: 30
+    min-size: 10
+    max-wait-time-m-s: 130000
+    max-connection-life-time-m-s: 1
+    max-connection-idle-time-m-s: 2
+  default-read-concern-level: localhost
+  default-read-preference: secondaryPreferred
+  default-write-concern:
+    w: W1
+    w-timeout-m-s: 5000
+    jouornal: false
+# (e) data-mongo
+
 # (s) data-rest
 spring:
     data:
