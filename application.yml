@@ -21,9 +21,9 @@ bluesky-modules.mongodb:
   default-connection-pool-settings:
     max-size: 30
     min-size: 10
-    max-wait-time-m-s: 130000
-    max-connection-life-time-m-s: 1
-    max-connection-idle-time-m-s: 2
+    max-wait-time-m-s: 120000
+    max-connection-life-time-m-s: 0
+    max-connection-idle-time-m-s: 0
   default-read-concern-level: local
   default-read-preference: secondaryPreferred
   default-write-concern:
