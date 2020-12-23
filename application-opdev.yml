@@ -1,10 +1,10 @@
 # (s) jdbc
 datasource:
     default:
-        password: '{cipher}AQA9lSazK/uL4LdDW8vyBUaykUMFqnZbuCYAuRJRfcBbQk0LYn49Pc4ZSRbdqpaIrsZ4nwTkSbBmmOWk/LVHomFs7a+jp/CDTl3dxgxKroKQ9kwp+cJeAG1bNNj9AW6KC4szJxphhkYLp6z+YIpmp8crzt3xrnIiI7QlRryLqLwxtyNXmDRf2naFMIt6MMXZUOcytFHQt2WwdSV+Z/uR48MBY1rf/KqENksYNDwOayzEItdazNxZd4QHa2vW16A9D4/FYpzwqUisOSEB0BCmQ6n2HiIMDjjeqhr8noaOlNaWTOoMrKV/VoHYRa0GNzgWtUaouR/vBl5+m4X6RpjBVv9jeoufDIsBlcVOCicmzuCdTGHr5L8rt7avtuVOGbuL8hg='
+        password: '{cipher}AQB1fRs4pGv/xc1ogYTQ/8y/CBV7IF3tS/9U+iv62E+Wpjh4EtBWkjQxWCl7kXlZUSAW2LmN9oBVkIRPB8MiymU403Nt9UrDWGzBmiX3ZbGRh9uwToKwqpLjVwFa9lsbrS9D3tnnN1rQBUK10+iMc/YgqEBEpZX6MVVO4XgibEFinx3h8/tmYb2FPXQBfEZuUNujvaOx8f1gEOnVRyMBhZ5IWAiqgdsaZS/+FrdY3SchOa/lRH16HohO+dGN1f61jTAHMMTUBf96zTZQCFK1D2HtvuYM56NbBoy19JcAspI46dehMui1hOWugVMlNvrt59gH2GV9H1wMnm0blOYtP3CZCCnQMs5B0BN1AXs25++RnUzvMXl9fuJb8ONgosgWVFc='
         type: com.zaxxer.hikari.HikariDataSource
         url: jdbc:mariadb://localhost:3306
-        username: '{cipher}AQA9lSazK/uL4LdDW8vyBUaykUMFqnZbuCYAuRJRfcBbQk0LYn49Pc4ZSRbdqpaIrsZ4nwTkSbBmmOWk/LVHomFs7a+jp/CDTl3dxgxKroKQ9kwp+cJeAG1bNNj9AW6KC4szJxphhkYLp6z+YIpmp8crzt3xrnIiI7QlRryLqLwxtyNXmDRf2naFMIt6MMXZUOcytFHQt2WwdSV+Z/uR48MBY1rf/KqENksYNDwOayzEItdazNxZd4QHa2vW16A9D4/FYpzwqUisOSEB0BCmQ6n2HiIMDjjeqhr8noaOlNaWTOoMrKV/VoHYRa0GNzgWtUaouR/vBl5+m4X6RpjBVv9jeoufDIsBlcVOCicmzuCdTGHr5L8rt7avtuVOGbuL8hg='
+        username: '{cipher}AQBXX9/Vd68mF5K/KA1FmKQj0F0HpK3ccbyAaMYvmhM41fUhUEgoBpjvMpiw+ngEwLwOcyUAjdzU8AevZ4fMzXonmRibqpHWfZGPdfvT7H+6dRRWgNkU8H7+2qQdToJHWi9Y1y43PqQgj1hwoFJx+c/ZhFV4txBfVr8PQRx4fVCfU89qRMpp/D6dpxFZyYzmtjDB8770K+6vpY2Fb6cDhzhCrK8NfJOr/P8bYGYRuN5yv3pdLup241OcalWcXKAzNsUlmnVl2TxrP873jx8vAJjm5PU5oaSiKbcUJ5NN10Eymk3kg4jITvAb20W7gCcyQQHSM7gWzZMqxHjvKjCrg/ubBpBV9HoenVlAz7K3EQrJZR9jRJl/2cMVH80vQ0xRLq4='
 
 # (e) jdbc
 
