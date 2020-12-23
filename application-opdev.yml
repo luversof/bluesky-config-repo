@@ -1,19 +1,19 @@
 # (s) jdbc
 datasource:
-    default:
-        password: '{cipher}AQB1fRs4pGv/xc1ogYTQ/8y/CBV7IF3tS/9U+iv62E+Wpjh4EtBWkjQxWCl7kXlZUSAW2LmN9oBVkIRPB8MiymU403Nt9UrDWGzBmiX3ZbGRh9uwToKwqpLjVwFa9lsbrS9D3tnnN1rQBUK10+iMc/YgqEBEpZX6MVVO4XgibEFinx3h8/tmYb2FPXQBfEZuUNujvaOx8f1gEOnVRyMBhZ5IWAiqgdsaZS/+FrdY3SchOa/lRH16HohO+dGN1f61jTAHMMTUBf96zTZQCFK1D2HtvuYM56NbBoy19JcAspI46dehMui1hOWugVMlNvrt59gH2GV9H1wMnm0blOYtP3CZCCnQMs5B0BN1AXs25++RnUzvMXl9fuJb8ONgosgWVFc='
-        type: com.zaxxer.hikari.HikariDataSource
-        url: jdbc:mariadb://localhost:3306
-        username: '{cipher}AQBXX9/Vd68mF5K/KA1FmKQj0F0HpK3ccbyAaMYvmhM41fUhUEgoBpjvMpiw+ngEwLwOcyUAjdzU8AevZ4fMzXonmRibqpHWfZGPdfvT7H+6dRRWgNkU8H7+2qQdToJHWi9Y1y43PqQgj1hwoFJx+c/ZhFV4txBfVr8PQRx4fVCfU89qRMpp/D6dpxFZyYzmtjDB8770K+6vpY2Fb6cDhzhCrK8NfJOr/P8bYGYRuN5yv3pdLup241OcalWcXKAzNsUlmnVl2TxrP873jx8vAJjm5PU5oaSiKbcUJ5NN10Eymk3kg4jITvAb20W7gCcyQQHSM7gWzZMqxHjvKjCrg/ubBpBV9HoenVlAz7K3EQrJZR9jRJl/2cMVH80vQ0xRLq4='
+  default:
+    password: '{cipher}AQCU17f7Qd66Uy4x4HkIL+hoUNy79up90emBqlxmpB0gS4KG8I1+XAiTsDR/ID/yzNV+jnNBOaYhzQiDACXPJBbHMlxLHE3k45UthgWqx1vjrlggO37gne3upkJvbbRSs8dUIFT8A7bA83UPzuEZNhEOeQfgTMEUnDVgvtFbEmA6ra9BQ0lT8ysu/EPjBKgXQh5G5K8DaqNfx/qS1M7zCmw28zursxOKYLn/2cVxG8WV8D/d7xFL4cUtloQp+zaDTd6tlJoQSGueAx0KxoAtkW+o7jhQWRvT3I8NyrsPDJKizHmqnuc6knGmUQ3oBnhMqkPyJDXw9KhS/On3pBXAb5bq5eIjkR6RdaokQ1/3/pt5ZY5QSNJD1sVhrWZsLAfoQzA='
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:mariadb://localhost:3306
+    username: '{cipher}AQCtG9jndjRXB61o9inAQU+jDz0Ug+7tu/KzpOe0fUPkeUxu3lBWgkXUhHOd3/YAgsyAOYuZxtE90WNFCkklbkcOXNeOug9J2bT82gA+dV5sgV97Kp9ui32gEZ/dG8nxqRG4b2Twmdb4LrF5TFfmLN20kPpRrPkXL62pPdzROBA9hHpWKRRRYA7WxjVS2yTQPMs9Z7V3Lnj48W3JMe85Y2cPHtAjJuKJ+YQB8AN/Ny/cUa3BXEqhmBW1npAva+/j9Hc7kvLs6TT+7dZ1XELH47nmUN+Ac/de149rYHh1sZmJxkTaFWd7PWru2+w0kpe+tewtOqMLKXsz4SD4n89B3JkfcfTY0sWtS/vyCeOH52ud0xb/43XGWV2Gor/MAgy67Wc='
 
 # (e) jdbc
 
 # (s) data-mongodb
 spring:
-    data:
-        mongodb:
-            host: localhost
-            port: 27017
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
 # (e) data-mongodb
 
 
