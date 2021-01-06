@@ -23,11 +23,11 @@ spring.security.oauth2.client:
       authorization-grant-type: authorization_code
       redirect-uri: http://localhost:8082/login/oauth2/code/battlenet
       client-name: battlenet client
-      client-id: '{cipher}AQAp4ZMvJNiUXZj//jMvFxHip+pObIceWvnAKNOQ35LOiH0VY5B9KWL5+iuIAty8/UorW2iOkCohsc2zSh5CRIjHfyu6QOuHmZWReD1opOngqfyWbXkJ7VD3EFqU2O7AXKueNZsuSk8r4rU4kOCno0ILTi1aZK8+2eSGNTJV2HTwTMiR9TyZmLBygpD7oUtvVApJvp1uWwcIK/KpIhsR55N65lMV5wmJDMOMt3A8x8IUwWKeDosx7AVm5LGkqBOhLuo/gfjnDtHiC4vZMBAH7/BzNz6JQyAkHpTzvtCZHfPp+dGZgXvKbxgJgk7Ie6zqCQzRICWn/qL8f4G3EMoT+A6QAcWMjwL1v+ioSDTcBSNy0wKrku3Aqekfq3FUIXGDqNdxOMFBhgOXZrTqbzA/5E9PBFP+N1vD1Y66gGAatH/Kaw=='
-      client-secret: '{cipher}AQAvI5/eWxhh/XizkBvyn3u5lil3+nTnaLgI+DnstNfUdnWd5hjuczhFnI5TUk/KJNz+Ly8wtBP89acq0x4fiRjSaYeDOol2U+cqLfwAws5KMHLRKU6YAjIfS+t0zp/Uyxj3yQiVNPZvcDpR5feN3WmkkYCjZs/hi9hFfTzj+b9cyeY0tdNCG+wEs6GRfBQ38Ghz7BIlJZmLe8Mmjvi/FzxG2NOAqeXtLI/r6ueWT0EzHhnEeRU7r5j+X6sR3Dp1uOdd4Oz2FusPkT5pODj6I1jUhOZ8he1WvdW2j2ly2IylD3C12XR+M1v/RVwsyNUhqiOp6GA9XKpZD+TRstqI3jaJPCyv30953pSH/YI4pVW5GF6kkOk24IQdphaBO0pzO0/lN0BLvXdMh0V1wZ6IuefbPycKUUyBXS9EEwfsj04OQA=='
+      client-id: 'test'
+      client-secret: 'test'
     
 #bluesky-app-api-battlenet
 api.battleNet:
   apiHost: https://kr.api.battle.net
   host: https://kr.battle.net
-  apikey: '{cipher}AQCPLVZt2OYAbOaNMChiWvx5uo0LZ/wkRs70TRErQLooiIiRN4s6KhgNGv2QXm73Sz2hrvVcBuHE7HJQRT/XcgDtFtrdL/hfLZ7iXqgYKmUD6Hzpv6LT+1zQwMKKuDWlONpLOGt2ctlMfRexmFQczd+90l4i2HepGmhXihwFrdExIgWaHdvomNP53wt2eGA1/BDho3Rywfh0Serrh3g8UzUjIf2wNjxGDbSPUJHIJPPHBVD82Dm0y2ykNV/PIWXhHzRKmDXnFEfbOqohJK5B2Tsmh+GkMptiMc8+2DfZ9OBglT//1otY1ub2m8SMX3Qcgw91UgltOiB4nuVgzkey2gmk9TAoIb65DZXJyQIsV8caSjXXCL7vM+sJWmFp50QcUHm0fpKi40n/XMVFbJJiT3xKXtEhdQjVYTJlQykJ/8PQKQ=='
+  apikey: 'test'
