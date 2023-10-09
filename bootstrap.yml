@@ -24,6 +24,8 @@ logging.pattern.level: '%5p [${spring.application.name:},%X{traceId:-},%X{spanId
 #eureka:
 #  instance:
 #    instance-id: ${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}}
+
+
 ---    
 spring:
   config.activate.on-profile: localdev | opdev 
@@ -68,6 +70,8 @@ eureka:
       defaultZone: http://netflix-eureka-server:30100/eureka
 #  instance:
 #    ip-address: 10.0.75.1
+
+
 ---
 spring:
   config.activate.on-profile: k8sdev
