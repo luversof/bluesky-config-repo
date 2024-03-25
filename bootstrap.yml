@@ -101,4 +101,4 @@ eureka:
     service-url:
       defaultZone: http://bluesky-cloud-netflix-eureka-server-1-service.default.svc.cluster.local:30100/eureka/,http://bluesky-cloud-netflix-eureka-server-2-service.default.svc.cluster.local:30100/eureka/
 
-management.zipkin.tracing.endpoint: http://opentelemetry-collector-service:9411/api/v2/spans
+management.zipkin.tracing.endpoint: http://opentelemetry-collector-service.opensource.svc.cluster.local:9411/api/v2/spans
