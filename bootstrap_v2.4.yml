@@ -51,7 +51,7 @@ eureka:
 
 management.otlp:
   tracing.endpoint: http://opentelemetry-collector.bluesky.local/v1/traces
-  logging.endpoint: https://opentelemetry-collector.bluesky.local/v1/logs
+  logging.endpoint: http://opentelemetry-collector.bluesky.local/v1/logs
 
 ---
 spring:
@@ -109,4 +109,4 @@ eureka:
 
 management.otlp:
   tracing.endpoint: http://opentelemetry-collector-service.opensource.svc.cluster.local:4318/v1/traces
-  logging.endpoint: https://opentelemetry-collector-service.opensource.svc.cluster.local:4318/v1/logs
+  logging.endpoint: http://opentelemetry-collector-service.opensource.svc.cluster.local:4318/v1/logs
